@@ -1,0 +1,115 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#background {
+    background-image: url(spring-tree.png)
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+
+Nav {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Verdana;
+}
+
+nav a {
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav a: hover {
+    color: black;
+    background-color: white;
+}
+
+nav li {
+    display: inline;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+Section {
+    color: white;
+    text-align: right;
+}
+
+.poem {
+    text-align: center;
+    padding-right: 10px;
+}
+
+#photo {
+    padding-left: 100px;
+}
+
+figure {
+    border: 1px solid white;
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+
+figure img {
+    width: 175px;
+}
+
+#spring {
+    width: 100%;
+}
+
+.head {
+    color: black;
+}
+
+#tree {
+    float: center;
+    width: 50%;
+    overflow: auto;
+}
+
+#ptwo {
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
