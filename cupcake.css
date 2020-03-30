@@ -1,0 +1,146 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+footer {
+    padding: 20px;
+}
+
+body {
+    background-color: #CCCCCC;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#wrap {
+    width: 77%;
+    margin: 0 auto;
+}
+
+.head {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+Nav {
+    text-align: center;
+    background-color: #0EC8C7;
+    font-size: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+Section {
+    overflow: auto;
+    background-color: #EC3632;
+}
+
+Aside {
+    color: white;
+    text-decoration: none;
+    background-color: #EC3632;
+    width: 24%;
+    float: left;
+    text-align: left;
+}
+
+aside li {
+    text-decoration: none;
+    text-align: left;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+Article {
+    width: 68%;
+    float: right;
+    padding: 2%;
+    background-color: white;
+}
+
+.buy {
+    width: 30%;
+    float: right;
+}
+
+Footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: #0EC8C7;
+    font-size: 11 px;
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: beige;
+    }
+
+    header {
+        width: 100%
+    }
+
+    #wrap {
+        width: 99%;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        padding: 0;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    aside li {
+        padding: 10px;
+    }
+
+    aside,
+    article {
+        float: none;
+        width: 96%;
+        text-align: center;
+    }
+
+    .buy {
+        float: none;
+        width: 100%;
+    }
+
+    .head {
+        width: 100%;
+    }
+}
