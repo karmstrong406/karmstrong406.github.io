@@ -1,0 +1,255 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+footer {
+    padding: 20px;
+}
+
+body {
+    background: black;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {}
+
+.head {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+Nav {
+    text-align: center;
+    background-color: #ad9cc8;
+}
+
+nav li {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+nav a {
+    width: 200px;
+    color: black;
+    font-size: 30px;
+    font-family: Verdana;
+    text-decoration: none;
+    position: relative;
+    top: 170px;
+}
+
+.home {
+    background-image: url(home.png);
+}
+
+.about {
+    background-image: url(profile.png);
+}
+
+.writings {
+    background-image: url(prospector.png);
+
+}
+
+.photos {
+    background-image: url(photo.png);
+}
+
+.contact {
+    background-image: url(mailbox.png);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    overflow: auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#profile {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+section li {
+    display: inline-block;
+    width: 200px;
+    height: 312px;
+    text-align: center;
+    overflow: auto;
+}
+
+section a {
+    width: 200px;
+    color: black;
+    font-size: 30px;
+    font-family: Verdana;
+    text-decoration: none;
+    position: relative;
+    top: 170px;
+    overflow: auto
+}
+
+.covidprosp {
+    background-image: url(covidprosp.png);
+}
+
+.feb27 {
+    background-image: url(feb27.png);
+    border: solid black 2px;
+}
+
+.oct31 {
+    background-image: url(oct31.png);
+    border: solid black 1px;
+}
+
+.sept26 {
+    background-image: url(Sept26.png);
+    border: solid black 1px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+fieldset {
+    background-color: #ddd;
+    border-radius: 1em;
+}
+
+.LI-profile-badge {
+    float: right;
+}
+
+.LI-simple-link {
+    float: right;
+    height: 50px;
+}
+
+textarea {
+    width: 50%;
+}
+
+legend {
+    font-size: 30px;
+    font-family: Georgia, serif;
+    color: #ad9cc8;
+    font-weight: bold;
+}
+
+
+Footer {
+    text-align: center;
+    background-color: #ad9cc8;
+    font-size: 11px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 20px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: beige;
+    }
+
+    header {
+        width: 100%
+    }
+
+    #wrap {
+        width: 99%;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        padding: 0;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    .LI-profile-badge {
+        text-align: center;
+    }
+
+    fieldset {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    footer a {
+        display: block;
+        width: 100%;
+    }
+
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer li {
+        padding: 0;
+    }
+
+    footer {
+        padding: 0;
+    }

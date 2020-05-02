@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Contact Me</title>
+    <link href="journalist.css" rel="stylesheet" type="text/css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160840051-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-160840051-1');
+
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <img src="head.png" class="head">
+        </header>
+
+        <nav>
+            <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="about"><a href="about.html">About</a></li>
+                <li class="writings"><a href="writings.html">Writing</a></li>
+                <li class="photos"><a href="photos.html">Photos</a></li>
+            </ul>
+        </nav>
+
+
+        <section>
+            <h1>Kelly Armstrong</h1>
+            <h2>journalist</h2>
+            <form method="post" action="../table.html">
+
+                <fieldset>
+                    <legend>Fill out this form to recieve more information</legend>
+                    <p><label for="fname">First Name</label> <br>
+                        <input type="text" id="fname" name="fname" required></p>
+
+                    <p> <label for="lname">Last Name</label> <br>
+                        <input type="text" id="lname" name="lname" required> </p>
+
+                    <p> <label for="email">Email</label> <br>
+                        <input type="email" id="email" name="email" required> </p>
+
+                    <p> <label for="phone">Phone</label> <br>
+                        <input type="tel" id="phone" name="phone" required> </p>
+
+                    <p>Which are you interested in?</p>
+                    <select id="day">
+                        <option value="None"> Select a Service...</option>
+                        <option value="Writing"> Writing</option>
+                        <option value="Photography"> Photography</option>
+                        <option value="All"> All</option>
+                    </select>
+
+                    <p>Please leave your comments below:</p>
+                    <textarea name="Comments" id="Comments" placeholder="Leave a comment."></textarea>
+
+                    <p><input type="submit" name="submit" value="Submit Form"></p>
+                </fieldset>
+            </form>
+
+            <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kelly-armstrong406"><a class="LI-simple-link" href='https://www.linkedin.com/in/kelly-armstrong406?trk=profile-badge'>Kelly Armstrong</a></div>
+        </section>
+
+        <footer>
+            <p>Copyright &copy;2020 Kelly Armstrong, all violators will answer to Brent. </p>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li> <a href="writings.html">Writings</a></li>
+                <li> <a href="photos.html">Photos</a></li>
+                <li> <a href="contact.html"> Contact Me</a></li>
+            </ul>
+        </footer>
+
+    </div>
+</body>
+
+
+</html>
